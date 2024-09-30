@@ -1,0 +1,578 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: dashed 1px red; */
+    
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    background-color: #306ee8;
+    height: 730px;
+}
+
+.container-isi{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+}
+
+.navigasi{
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+}
+
+.menu ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.navigasi .Logo{
+    font-weight: 700;
+    
+}
+
+.hero{
+    align-items: center;
+    display: flex;
+}
+
+.hero .gambar{
+    background-image: url(aset/img-1.jpg);
+    width: 900px;
+    height: 500px;
+    border-radius: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    background-position: -78px 0;
+}
+
+.hero .judul{
+    margin-top: 150px;
+}
+
+.hero .judul h1{
+    font-size: 60px;
+}
+
+.hero .judul p{
+    font-size: 16px;
+    margin-right: 300px;
+    margin-top: 20px;
+    color: white;
+}
+
+.kontak{
+    display: flex;
+}
+
+.kontak .icon{
+            background-color: #5380da;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 0px;
+            margin-right: 10px;
+            border-radius: 50%;
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.button .satu{
+    display: flex;
+    color: blue;
+    font-size: 20px;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.button .satu:hover{
+    transition: color 0.25s, background-color 0.25s;
+    background-color: #306ee8;
+    color: white;
+    border: 1px solid white;
+}
+
+.button .dua{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.pay{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pay .pic{
+    background-image: url(aset/img-3.jpg);
+    width:1190px;
+    height: 450px;
+    border-radius: 2%;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.pay .desc{
+    color: black;
+    margin-top: 100px;
+    margin-left: 105px;
+}
+
+.pay .desc h2{
+    font-weight: 400;
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+.pay .desc p{
+    color: grey;
+    line-height: 20px;
+}
+
+.box{
+    display:flex ;
+    /* flex-direction: column; */
+    margin-top: 50px;
+}
+
+.box .box1{
+    display: flex;
+    margin-top: 20px;
+}
+
+.pay .box .box1 .ikon{
+    font-size: 22px;
+    padding: 8px 10px 6px 10px;
+    color: dodgerblue;
+    background-color: whitesmoke;
+    width: auto;
+    height: 20%;
+    margin: 0px 20px 0px 0px;
+    text-align: center;
+}
+
+.pay .box .isi{
+    margin-right: 70px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.pay .isi h2{
+    color: black;
+    font-weight: 400;
+}
+
+.container-isi2{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.container-isi3{
+    width: 100%;
+    height: 220px;
+    background-color: #306ee8;
+    margin-top: 100px;
+}
+
+.fitur .box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    margin: auto;
+}
+
+.fitur .box2 .box3{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    width: 500px;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.fitur .box3 .isi h3{
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0.1px;
+}
+
+.fitur .box3 .ikon{
+    color: white;
+    font-size: 40px;
+    margin-left: 80px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    height: 20%;
+    width: auto;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.fitur .box3 .isi p{
+    line-height: 20px;
+    color: gainsboro;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.way{
+    width: 90%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.way .d{
+    color: black;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.way .d h2{
+    font-weight: 400;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: -40px;
+    width: 500px;
+}
+
+.way .b{
+    display:flex ;
+   height: auto;
+   flex-direction: column;
+}
+
+.b .b1{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    width: 500px;
+
+}
+
+.way .b .b1 .i{
+    font-size: 24px;
+    padding: 8px 10px 6px 10px;
+    color: dodgerblue;
+    background-color: ghostwhite;
+    width: auto;
+    height: 20%;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 00 0 5px rgba(0, 0,0, 0.15);
+}
+
+.way .b .isian{
+    margin-right: 70px;
+    margin-left: 10px;
+    color: grey;
+    line-height: 20px;
+}
+
+.way .isian h3{
+    color: black;
+    font-weight: 400;
+}
+
+.way img{
+    width: 680px;
+    margin-top: -40px;
+    border-radius: 1.5%;
+}
+
+.container5{
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-isi5{
+    width: 85%;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.container-isi5 .heading{
+    width: 380px;
+    text-align: center;
+    margin: auto;
+}
+
+.container-isi5 .heading h2{
+    font-weight: 700;
+    color: rgb(48, 96, 232);
+}
+
+.container-isi5 .heading p{
+    color: rgb(88, 88, 88);
+    font-size: 14px;
+}
+
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    margin-right: 20px;
+}
+
+.anaknya-grid{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.anaknya-grid .icon2{
+    font-size: 50px;
+    color: rgb(48, 96, 222);
+    margin-top: 10px;
+}
+
+.judul2{
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+p{
+    color: black;
+}
+
+.anaknya-grid button{
+    background-color: transparent;
+    color: rgb(48, 96, 222);
+    cursor: pointer;
+    transition: color 0.25s, background-color 0.25s;
+    padding: 10px 20px;
+    border: solid 1px rgb(48, 96, 222);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.anaknya-grid button:hover{
+    background-color: rgb(48, 96, 222);
+    color: white;
+}
+
+.container6{
+    background-image: url(aset/img-3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.container6blue{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: auto;
+    background-color: #306ee8;
+    opacity: 0.88;
+}
+
+.container-isi6{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-isi6 .text{
+    width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.container-isi6 .text .title{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+.container-isi6 .text p{
+    font-size: 15px;
+    color: white;
+}
+
+.container-isi6 button{
+    border: solid 1px white;
+    color: #306ee8;
+    background-color: white;
+    transition:0.8s;
+    width: 129px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5%;
+}
+
+.container-isi6 button:hover{
+    color: white;
+    background: none;
+}
+
+.footer{
+    width: 100%;
+    background-color:rgb(48, 74, 232);
+    height: 550px;
+}
+
+.footer .fill{
+    width: 90%;
+    height: 300px;
+    
+    display: grid;
+    grid-template-areas: "kon1 kon2 kon3 kon4";
+    margin: auto;
+    padding-top: 75px;
+    gap: 20px;
+    
+    grid-template-columns: 1.5fr 0.6fr 1fr 1.4fr;
+}
+
+.footer h5{
+    font-weight: 600;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.fill .about ul{
+    line-height: 35px;
+}
+
+.about, .company, .company2, .navigation{
+    line-height: 35px;
+}
+
+.footer .about{
+    grid-area:kon1;
+}
+
+.footer .company{
+    grid-area: kon2;
+}
+
+.footer .company2{
+    grid-area: kon3;
+    /* margin-top: 10px; */
+}
+
+.footer .navigation{
+    grid-area: kon4;
+}
+
+.footer p{
+    line-height: 22px;
+    color: white;
+}
+
+.footer p li{
+    font-size: 14px;
+}
+
+.footer li {
+    color: rgb(142, 169, 244);
+    font-weight:500;
+    cursor: pointer;
+    transition: color 0.75s
+}
+
+.footer li:hover{
+    color: azure;
+}
+.about1 h5,p{
+    margin-bottom: 20px;
+}
+
+.footer .copyright{
+    text-align: center;
+    font-size: 15px;
+   margin-top: 100px;
+}
+
+button{
+    margin-top: 5px;
+}
+
+.bsocial{
+    background-color: rgb(48, 110, 232);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 10px 12px;
+    font-size: 16px;
+    transition: 0.8s;
+}
+
+.bsocial:hover{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    color: rgb(48, 110, 252);
+    padding: 10px 12px;
+    font-size: 16px;
+}

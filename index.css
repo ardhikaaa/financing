@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.judul{
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+    /* margin-top: 20px; */
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    padding-top: 15px;
+}
+
+.container{
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "konten1 konten2 konten3 konten4";
+}
+
+.satu, .dua, .tiga, .empat{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.container .satu{
+    grid-area: konten1;
+}
+
+.container .dua{
+    grid-area: konten2;
+}
+
+.container .tiga{
+    grid-area: konten3;
+}
+
+.container .empat{
+    grid-area: konten4;
+}
+
+.container2{
+    background-color: cornsilk;
+    color: black;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "konten1 konten2 konten3" "konten1 konten5 konten6" ;
+    gap: 15px;
+}
+
+.satu-a, .dua-b, .tiga-c, .empat-d, .lima-e, .enam-f{
+    padding: 10px;
+    /* margin: 10px; */
+    border: 1px solid black;
+}
+
+.container2 .satu-a{
+    grid-area: konten1;
+    display: grid;
+    align-items: center;
+}
+
+.container2 .dua-b{
+    grid-area: konten2;
+}
+
+.container2 .tiga-c{
+    grid-area: konten3;
+}
+
+.container2 .empat-d{
+    grid-area: konten4;
+}
+
+.container2 .lima-e{
+    grid-area: konten5;
+}
+
+.container2 .enam-f{
+    grid-area: konten6;
+}
+
+img{
+    width: 100%;
+}
